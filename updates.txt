@@ -1,0 +1,13 @@
+11.08.23
+
+- have created a new input file in probsmeg called athinput.khturb
+- have copied the github files for mix_layer_shift - copied_tcm.cpp, hst_func, townsend_cooling_max and code_units
+- need to have -mpi in the command line for MPI_PARALLEL to be used
+- runs into error in last runs of the cpp file so have added text debugging to find where it stops - syntax error i think
+- gets to line 672 but not further - need more debugging
+
+14.08.23
+- still not working when take lines after 672 out of if statement - error within this section
+- error after line 690 - phydro? all variables are defined - double check that the calculated variables dont have syntax errors 
+- unsure where phydro pccord 
+- tried copying this section from Hitesh's debug MLS
